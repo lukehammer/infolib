@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #containerElement {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+
+        .particleElement {
+            border: 1px solid black;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            border-radius: 10px;
+            background-color: rgba(111,222,99,0.5);
+        }
+    </style>
+</head>
+<body>
+<div id="containerElement"></div>
+<script>
+
+
+    var particleFactory = function (particle, container) {
+
+        var self = this;
+        self.particle = particle;
+        self.container = container;
+
+        var red = Math.ceil(Math.random() * 225);
+        var blue = Math.ceil(Math.random() * 225);
+        var green = Math.ceil(Math.random() * 225);
+        var randomColor = "rgba("+ red +","+blue+","+ green +",0.5)"
+        self.particle.style.backgroundColor = randomColor
+
+        red = Math.floor(red- (255-red)/2) ;
+        blue = Math.floor(blue - (255 - blue)/2) ;
+        green = Math.floor(green - (255 - green)/2) ;
+        randomColor = "rgba("+ red +","+blue+","+ green +",1)";
+        //randomColor = "rgba(0,0,0,1)";
+
+
+        self.particle.style.borderColor = randomColor
+        self.position = {
+            x: Math.random() * particle.offsetWidth,
+            y: Math.random() * particle.offsetHeight
+        };
+
+
+        self.directionAndVelocityVector = {
+            vx: Math.random() *.1 + 1,
+            vy: Math.random() *.1 + 1
+        };
+
+
+        self.detectCollision = function () {
+            var container = self.container;
+            var particle = self.particle;
+            var position = self.position;
+
+            var directionAndVelocityVector = this.directionAndVelocityVector;
+            if (position.x > (container.offsetWidth - particle.offsetWidth)) {
+                position.x = container.offsetWidth - particle.offsetWidth;
+                directionAndVelocityVector.vx = -directionAndVelocityVector.vx;
+
+            } else if (position.x < 0) {
+                position.x = 0;
+                directionAndVelocityVector.vx = -directionAndVelocityVector.vx;
+            }
+            if (position.y > (container.offsetHeight - particle.offsetHeight)) {
+                position.y = container.offsetHeight - particle.offsetHeight;
+                directionAndVelocityVector.vy = -directionAndVelocityVector.vy;
+            } else if (position.y < 0) {
+                position.y = 0;
+                directionAndVelocityVector.vy = -directionAndVelocityVector.vy;
+            }
+        };
+        function move() {
+            self.position.x += self.directionAndVelocityVector.vx;
+            self.position.y += self.directionAndVelocityVector.vy;
+            self.detectCollision()
+            particle.style.left = Math.ceil(self.position.x) + "px";
+            particle.style.top = Math.ceil(self.position.y) + "px";
+        }
+
+        return {
+            move: move
+        }
+    };
+    var containerElement = document.getElementById("containerElement");
+
+var countOfBalls = 25;
+var balls = [];
+
+    for (ii = 0 ; ii <countOfBalls;  ii++ )
+    {var particleElement = document.createElement("div");
+    particleElement.classList.add("particleElement");
+    var particleObject = new particleFactory(particleElement, containerElement);
+    containerElement.appendChild(particleElement);
+    balls.push(particleObject);}
+
+
+    console.log(particleElement);
+    console.log(particleObject)
+    function draw() {
+        requestAnimationFrame(draw);
+        for (var ii = 0;ii < balls.length;ii++){
+            balls[ii].move()
+        }
+
+                particleObject.move();
+
+    }
+    draw();
+
+
+</script>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
