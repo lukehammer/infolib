@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>Form Validator</title>
+<style>
+.error {
+border: 2px solid red;
+}
+ 
+label {
+margin: 1em;
+display: inline-block;
+}
+ 
+label input {
+display: block;
+}
+</style>
+</head>
+<body>
+<div id="error_output"></div>
+<form id="registration_form">
+<fieldset>
+<label> Email: <input name="email" id="email"> </label>
+<label> First Name: <input name="first_name" id="first_name">
+</label>
+<label> Last Name: <input name="last_name" id="last_name"> </label>
+<label> Phone: <input name="phone" id="phone"> </label>
+<input type="submit" value="Register">
+</fieldset>
+</form>
+<script>
+//CREATE CLOSURE via IIFE(Immediately Invoked Function Expression)
+(function (window) {
+/**
+* CONSTANTS
+*/
+var NUMBERS = "1234567890";
+var LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+ 
+/**
+* isIn(sought, searched) - returns true if
+* character or string exists inside another string.
+* @param sought
+* @param searched
+* @returns {boolean}
+*/
+function isIn(sought, searched) {
+return searched.indexOf(sought) != -1;
+}
+ 
+function isNumber(character) {
+return isIn(character, "1234567890");
+}
+ 
+/**
+* hasDigits - returns true if string contains
+* at least a supplied quantity of digits
+* @param text
+* @param numberOfDigits
+* @returns {boolean}
+*/
+function hasEnoughDigits(text, numberOfDigits) {
+var quantity = 0;
+for (var i = 0; i < text.length; i++) {
+var character = text[i];
+if (isNumber(character)) {
+quantity++;
+}
+}
+return quantity >= numberOfDigits;
+}
+ 
+function isNotBlank(text) {
+return text.length > 0;
+}
+ 
+function isValidEmail(email) {
+return isNotBlank(email)
+&& isIn("@", email)
+&& isIn(".", email);
+}
+ 
+function isValidPhone(phone) {
+return isNotBlank(phone)
+&& hasEnoughDigits(phone, 7);
+}
+ 
+function empty(element) {
+while (element.firstChild) {
+element.removeChild(element.firstChild);
+}
+}
+ 
+function removeClass(cssSelector, className) {
+[].map.call(document.querySelectorAll(cssSelector),
+function (element) {
+element.classList.remove(className);
+}
+);
+}
+ 
+function clearErrors() {
+var errors = document.getElementById("error_output");
+empty(errors);
+removeClass("input", "error")
+}
+ 
+//QUICK AND DIRTY
+function displayErrors(error_list) {
+var errors = document.getElementById("error_output");
+errors.innerHTML = error_list.join("<br>");
+}
+ 
+//PROPER EASIER TO STYLE AND EXTEND WAY
+function displayErrorsFormal(error_list) {
+var errors = document.getElementById("error_output");
+for (var error_index = 0; error_index < error_list.length;
+error_index++) {
+var d = document.createElement("div");
+d.innerHTML = error_list[error_index];
+document.getElementById("error_list").appendChild(d);
+}
+}
+ 
+function validateAll() {
+ 
+var error_list = [];
+ 
+var email = document.getElementById('email');
+ 
+if (!isValidEmail(email.value)) {
+email.classList.add("error");
+error_list.push("Invalid Email");
+}
+ 
+var phone = document.getElementById('phone');
+ 
+if (!isValidPhone(phone.value)) {
+phone.classList.add("error");
+error_list.push("Invalid Phone Number.");
+}
+ 
+return error_list;
+}
+ 
+function onSubmitted(submitEvent) {
+clearErrors();
+ 
+var error_list = validateAll();
+ 
+displayErrors(error_list);
+ 
+if (error_list.length >= 0) {
+submitEvent.preventDefault();
+}
+}
+ 
+function onDOMContentLoaded(onDOMContentLoadedEvent) {
+var form = document.getElementById('registration_form');
+form.addEventListener("submit", onSubmitted);
+}
+ 
+/**
+* REGISTER LISTENERS
+*/
+document.addEventListener("DOMContentLoaded", onDOMContentLoaded);
+ 
+}());
+ 
+</script>
+</body>
+</html>
