@@ -1,0 +1,1 @@
+http://nickpolet.com/blog/deploying-django-on-aws/1/
