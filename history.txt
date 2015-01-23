@@ -1,0 +1,1000 @@
+   58  history
+   59  git commit
+   60  dir
+   61  cd fall-2014-eve/
+   62  git commit
+   63  dir
+   64  cd fall-2014-eve/
+   65  git commit -m "this is work from day 4 of class"
+   66  cd fall-2014-eve/
+   67  git commit -m "this is work from day 4 of class"
+   68  git push
+   69  git help
+   70  git commit - "where does this message go" 
+   71  git commit
+   72  git push
+   73  git status
+   74  cd fall-2014-eve/
+   75  git stats
+   76  git status
+   77  git add *
+   78  git add Week1/day3/*
+   79  git commit -m "work in progress"
+   80  get push
+   81  git push
+   82  git status
+   83  get status
+   84  git pull
+   85  git status
+   86  git add -A
+   87  get status
+   88  git status
+   89  git commit -m "chris helping me push"
+   90  git push
+   91  get status
+   92  git status
+   93  get diff
+   94  git diff
+   95  get status
+   96  git status
+   97  git add -a
+   98  git add -A
+   99  git status
+  100  git commit -m "chris helping 2" 
+  101  git push
+  102  git add
+  103  git commit
+  104  git add -A
+  105  git commit
+  106  git add A
+  107  git status
+  108  get commit -m "Friday up load" 
+  109  git commit -m "Friday up load" 
+  110  git push
+  111  git status
+  112  git push -A
+  113  git commit -m 'test'
+  114  git -A
+  115  git commit
+  116  git status
+  117  git add -A
+  118  git status
+  119  git commit
+  120  git push
+  121  cd ..
+  122  dir
+  123  cd idea-IU-135.1289/
+  124  dir
+  125  build.txt
+  126  python
+  127  dir
+  128  cd fall-2014-eve/
+  129  dir
+  130  ledger.py
+  131  cat week1.py 
+  132  ls l
+  133  ls -l
+  134  dir
+  135  cd ~
+  136  lllssssssssssssssssssssssssssssssssss
+  137  ls
+  138  ls-la |less
+  139  history
+  140  python
+  141  python "luke"
+  142  python --help
+  143  python -v
+  144  whois lukehammermagic.com
+  145  sudo apt-get install whois
+  146  whois lukehammer.com
+  147  sudo apt-get install whois
+  148  apt-get install whois
+  149  sudo apt-get install whois
+  150  whois lukehammermagic.com
+  151  whois hammercopter.com
+  152  whois tonihammer.com
+  153  whois lukehammer.com
+  154  git pull
+  155  cd ~
+  156  git commit
+  157  dir
+  158  fall-2014-eve/
+  159  cd fall-2014-eve/
+  160  git pull
+  161  git push
+  162  git pull
+  163  git commit
+  164  git add -a
+  165  git add -A
+  166  git ?
+  167  git help 
+  168  git status
+  169  get push
+  170  git push
+  171  git pull
+  172  git commit
+  173  git push
+  174  get pull
+  175  git pull
+  176  git commit -a
+  177  git push
+  178  get pull -a
+  179  git pull -a
+  180  git add/file
+  181  get status
+  182  git status
+  183  git add/rm Week2/PhoneBook.py
+  184  git rm Week2/PhoneBook.py
+  185  git status
+  186  cd week2
+  187  cd Week2
+  188  git rm PhoneBook.py
+  189  get status
+  190  git status
+  191  git add -a
+  192  git add -A
+  193  rm /home/student/fall-2014-eve/.git/index.lock
+  194  git add -A
+  195  git status
+  196  git push
+  197  git pull
+  198  git commit -m "having trouble with github"
+  199  get status
+  200  git status
+  201  git push
+  202  git status
+  203  cd fall-2014-eve/
+  204  git status
+  205  git add -A
+  206  git status
+  207  git commit -m "code guild commit"
+  208  git push
+  209  git add -a
+  210  cd ~
+  211  cd fall-2014-eve/
+  212  git status
+  213  git commit -m"added the first MVC still learing MVC"
+  214  git status
+  215  git push
+  216  git status
+  217  git commit -m "start of sudokuSlover"
+  218  gti status
+  219  git status
+  220  git add
+  221  git commit -a
+  222  git status
+  223  git push 
+  224  pip
+  225  sudu spt-get instsll python-pip
+  226  sudo get install pythin-pip
+  227  codeguild
+  228  sudo get install python-pip
+  229  codeguild
+  230  sudo apt-get install python-pip
+  231  sudo pip install virtualenv
+  232  sudo pip install virtualenwrapper
+  233  sudo pip install virtualenvwrapper
+  234  nano~/.bashrc
+  235  nano ~/.bashrc
+  236  lsvirtualenv
+  237  all lsvirtualenv
+  238  source ~/.bashrc
+  239  git status
+  240  cd fall-2014-eve/
+  241  git status
+  242  git commit -a 
+  243  git status
+  244  git push
+  245  git status
+  246  git commit -m "work added feture to sudoku slover working on finding list of vaild locations for any given value"
+  247  git add -a
+  248  git add -A
+  249  get status
+  250  git status
+  251  git commit -m "work added feture to sudoku slover working on finding list of vaild locations for any given value"
+  252  git push
+  253  git help
+  254  cd..
+  255  cd ..
+  256  dir
+  257  cd project
+  258  cd Projects/
+  259  dir
+  260  Suduku_Slover
+  261  mk dir suduku_slover
+  262  mkdir suduku_slover
+  263  cd suduku_slover
+  264  gi t
+  265  git help
+  266  clone https://github.com/lukehammer/Suduku_Slover.git
+  267  git clone https://github.com/lukehammer/Suduku_Slover.git
+  268  git status
+  269  git clone https://github.com/lukehammer/suduku_slover.git
+  270  git status
+  271  git add
+  272  git help
+  273  git commit
+  274  git fetch
+  275  git init
+  276  git status
+  277  git add suduku_slover/
+  278  git status
+  279  git commit -m "first copy of the file in new repo. coped from lukehammer/suduku_slover"
+  280  cit config
+  281  git config
+  282  git commit
+  283  git config -- global user.email "luke@lukehammermagic.com"
+  284  git config --global user.email "luke@lukehammermagic.com"
+  285  git config --global user.name "luke hammer"
+  286  cd..
+  287  cd ..
+  288  dir
+  289  cd fall-2014-eve/
+  290  git config --global user.name "luke hammer"
+  291  cd ..
+  292  dir
+  293  cd Projects/
+  294  dir
+  295  cd suduku_slover/
+  296  git commit "this is the first commit for this repo"
+  297  git help
+  298  clone https://github.com/lukehammer/suduku_slover.git
+  299  git clone https://github.com/lukehammer/suduku_slover.git
+  300  git commit -m " this is the first commit "
+  301  add -A
+  302  git -A
+  303  git add -A
+  304  git status
+  305  git commit "this is the first commit for this repo"
+  306  git push
+  307  git status
+  308  git push
+  309  git status
+  310  git push
+  311  dir
+  312  ls a
+  313  ls -a
+  314  sudo rm -rf .git
+  315  ls -a 
+  316  cd suduku_slover/
+  317  ls -a
+  318  cp -r .git ../
+  319  cd ..
+  320  ls -a
+  321  sudo rm -rf suduku_slover
+  322  ls 
+  323  git status
+  324  git add -A
+  325  git status
+  326  git commit -m "first push"
+  327  git push
+  328  git pull
+  329  dir
+  330  ch Projects/
+  331  dir
+  332  ch Projects
+  333  cd Projects/
+  334  dir
+  335  dir suduku_slover/
+  336  git pull
+  337  cd suduku_slover/
+  338  git pull
+  339  git status
+  340  git pull
+  341  git commit -m "i might have a problem with files git is tracking or not tracking"
+  342  gitttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt git pull
+  343  git pull
+  344  ls
+  345  git pull
+  346  git status
+  347  git commit =m"probelems with unmerged paths"
+  348  git commit -m"probelems with unmerged paths"
+  349  git commit -a
+  350  git pull
+  351  git status
+  352  git push
+  353  git commit - "fixed bugs created from switching between pythone 2 and python 3" 
+  354  git commit -m  "fixed bugs created from switching between pythone 2 and python 3" 
+  355  git push 
+  356  git status
+  357  git add -a
+  358  git add -A
+  359  git commit -m  "fixed bugs created from switching between pythone 2 and python 3" 
+  360  git push
+  361  cd
+  362  dir
+  363  git fall-2014-eve/
+  364  cd fall-2014-eve/
+  365  dir
+  366  cd
+  367  cd twd
+  368  git int
+  369  git init
+  370  git commit -m"createing repo"
+  371  git add tango_with_django/
+  372  git commit -m"createing repo"
+  373  git push
+  374  git push lukehammer
+  375  git push
+  376  git remote add lukehammer tango
+  377  git push
+  378  git remote add lukehammer git://github.com/lukehammer/tango.git
+  379  git remote add tango_with_django git://github.com/lukehammer
+  380  git push
+  381  git remote add tango_with_django https://github.com/lukehammer/tango_with_django.git
+  382  git push
+  383  git push tango_with_django
+  384  git config --global push.default matching
+  385  git [ush
+  386  y
+  387  git push
+  388  git push tango_with_django 
+  389  https://github.com/lukehammer.git
+  390  git config --global push.default matching
+  391  git push
+  392  git push tango_with_django 
+  393  git push help
+  394  git help
+  395  git push
+  396  cit push config
+  397  git config
+  398  git --local
+  399  git push
+  400  git push tango_with_django 
+  401  git status
+  402  git clone https://github.com/lukehammer/tango_with_django.git
+  403  git status
+  404  ls -a
+  405  git status
+  406  git clone
+  407  git clone https://github.com/lukehammer/tango_with_django.git
+  408  mkdir temp
+  409  cd temp
+  410  git clone https://github.com/lukehammer/tango_with_django.git
+  411  cd temp
+  412  cd tango_with_django/
+  413  cp -r .git ../../
+  414  cd ../../
+  415  sudo rm -rf temp
+  416  git status
+  417  git commit -m "loading files from TWD"
+  418  git add -A
+  419  git commit -m "loading files from TWD"
+  420  git push
+  421  git status
+  422  dir
+  423  cd tango_with_django/
+  424  git commit -m "loading files from TWD"
+  425  git status
+  426  dir
+  427  cd tango_with_django/
+  428  dir
+  429  git status
+  430  cd..
+  431  cd ..
+  432   
+  433  touch README.md
+  434  git init
+  435  git add README.md
+  436  git commit -m "first commit"
+  437  git remote add origin https://github.com/lukehammer/tango_with_django.git
+  438  git push -u origin master
+  439  hist
+  440  history
+  441  workon twd
+  442  python --version
+  443  python -c "import django; print(django.get_version())"
+  444  python manage.py startapp rango
+  445  cd tango_with_django/
+  446  python manage.py startapp rango
+  447  python manage.py runserver
+  448  ipconfig
+  449  python manage.py runserver http://127.0.0.1:8000/
+  450  python manage.py runserver http://76.27.196.18:5555
+  451  python manage.py runserver 76.27.196.18:5555
+  452  dir
+  453  python manage.py startapp rango
+  454  workon twd
+  455  pythine manage.py startup rango
+  456  python manage.py startup rango
+  457  python manage.py startapp rango
+  458  dir
+  459  cd twd
+  460  python manage.py startapp rango
+  461  dir
+  462  cd tango_with_django/
+  463  python manage.py startapp rango
+  464  dir
+  465  cd tango_with_django/
+  466  python manage.py startapp rango
+  467  cd
+  468  cd twd
+  469  python manage.py startapp rango
+  470  dir
+  471  cd tango_with_django/
+  472  python manage.py startapp rango
+  473  python manage.py startapp rango1
+  474  git status
+  475  git add -A
+  476  git commit -m " push the file"
+  477  git push
+  478  git commit -m"finished day 1 twd created URLs.py step 3.5 twd"
+  479  git add -A
+  480  git commit -m"finished day 1 twd created URLs.py step 3.5 twd"
+  481  git push
+  482  python manage.py runserver
+  483  history |  grep t
+  484  history |  grep ta
+  485  python manage.py runserver
+  486  pwd
+  487  ls
+  488  python manage.py runserver
+  489  git pull
+  490  git stash
+  491  git 
+  492  git diff
+  493  git rm tango_with_django/
+  494  git rm -r tango_with_django/
+  495  git pull
+  496  cd rango
+  497  git rm -r 
+  498  git pull
+  499  rm rango
+  500  cd ..
+  501  rm rango
+  502  git pull
+  503  git pull ?
+  504  git pull help
+  505  supa git pull help
+  506  sudo git pull
+  507  git help
+  508  git help -g
+  509  git help -a
+  510  git pull
+  511  git stash
+  512  git pull
+  513  cd
+  514  dir
+  515  cd Projects/
+  516  cd suduku_slover/
+  517  git pull
+  518  git stash
+  519  git pull
+  520  cd ..
+  521  cd .. 
+  522  cd twd/
+  523  cd tango_with_django/
+  524  python manage.py runserver
+  525  python manage.py syncdb
+  526  python manage.py sql rango
+  527  python manage.py shell 
+  528  python manage.py runserver
+  529  python manage.py syncdb
+  530  python manage.py runserver
+  531  git status
+  532  git add -A
+  533  get status
+  534  git status
+  535  git commit 
+  536  git status
+  537  git push
+  538  python manage.py syncdb
+  539  python manage.py runserver
+  540  python populate_rango.py
+  541  cd ..
+  542  python manage.py runserver
+  543  cd tango_with_django/
+  544  cd tango_*pro
+  545  cd tango_with_django_project/
+  546  python populate_rango.py
+  547  cd ..
+  548  python populate_rango.py
+  549  python manage.py syncdb
+  550  cd ..
+  551  python manage.py syncdb
+  552  cd tango_with_django/
+  553  python manage.py syncdb
+  554  python populate_rango.py
+  555  dir tango_with_django_project/
+  556  python populate_rango.py
+  557  dir
+  558  cd tango_with_django_project/
+  559  python populate_rango.py
+  560  cd ..
+  561  python manage.py runserver
+  562  git status
+  563  git commit -A
+  564  git add -A 
+  565  git commit 
+  566  git push
+  567  python manage.py runserver
+  568  python manage.py dumpdata > data.json
+  569  dir
+  570  data.json
+  571  manage.py loaddata data.json
+  572  python manage.py loaddata data.json
+  573  python manage.py dumpdata > data.xml
+  574  python manage.py runserver
+  575  git status
+  576  git add -A
+  577  git status
+  578  git commit 
+  579  git push
+  580  git status
+  581  cd ..
+  582  dir
+  583  cd ..
+  584  dir
+  585  cd fall-2014-eve/
+  586  cd
+  587  dir
+  588  cd fall-2014-eve/
+  589  git staus
+  590  git satus
+  591  git status
+  592  git add -A
+  593  git commit "squrrel party"
+  594  git commit -m "squrrel party"
+  595  git push
+  596  git pull
+  597  git stash
+  598  git pull
+  599  git commit -a
+  600  git pull
+  601  git stash
+  602  git 
+  603  git merge
+  604  git reset
+  605  git push
+  606  git status
+  607  git/rm sudukuSlover.py
+  608  git push
+  609  git pull
+  610  git commit -a -m "try"
+  611  git pull
+  612  git push
+  613  cd ..
+  614  cd..
+  615  dir
+  616  cd twd
+  617  python manage.py runserver
+  618  dirt
+  619  dir
+  620  cd tango_with_django/
+  621  python manage.py runserver
+  622  workon twd
+  623  dir 
+  624  cir twd
+  625  dir twd/
+  626  python manage.py runserver
+  627  cd twd/
+  628  cd tango_with_django/
+  629  python manage.py runserver
+  630  git pull
+  631  python manage.py runserver
+  632  dir
+  633  cd fall-2014-eve/
+  634  git status
+  635  git -A
+  636  git add -A
+  637  get commit "added examples from summer classes"
+  638  git commit "added examples from summer classes"
+  639  git commit -m "added examples from summer classes"
+  640  git push
+  641  sudo apt-get install nodejs
+  642  git add -A
+  643  git commit -m "message eod commit"
+  644  git push
+  645  cdcd
+  646  cd ..
+  647  cd twd/
+  648  git add -A
+  649  git commit -m " test "
+  650  git push
+  651  55
+  652  git push
+  653  code
+  654  dir
+  655  cd twd
+  656  git pull
+  657  cd..
+  658  cd ..
+  659  cd infolib/
+  660  git pull
+  661  dir
+  662  cd infolib/
+  663  git pull
+  664  cd ..
+  665  cd cd twd
+  666  cd twd/
+  667  git add -A
+  668  git commit -m "login in methoed broken"
+  669  git push
+  670  dir
+  671  git clone 
+  672  git clone htts://github.com/lukehammer/lumos.git
+  673  git clone https://github.com/lukehammer/lumos.git
+  674  git clone https://github.com/lukehammer/fedup.git
+  675  git status
+  676  cd fedup
+  677  git status
+  678  git add -A
+  679  git commit -m "first push for feed up"
+  680  git push
+  681  git add -A
+  682  git commit -m "first push for feed up"
+  683  git push
+  684  git add -A
+  685  git commit -m "first push for feed up"
+  686  git push
+  687  cd ..
+  688  workon twd
+  689  pip install -U django==1.5.4
+  690  cd
+  691  cd lumos
+  692  python django-admin.py startproject lumos
+  693  python --version
+  694  python -c "import django; print(django.get_version())"
+  695  python django-admin.py startproject lumos
+  696  pythin manage.py runserver
+  697  python manage.py runserver
+  698  python django-admin.py startproject lumos
+  699  python -c "import django; print(django.get_version())"012801280128012801280128012801280128012801280128012801280128012801280128012801280128012
+  700  python django-admin.py startproject tangp_with_django_project
+  701  python django_admin.py startproject lumos
+  702  python django-admin.py startproject lumos
+  703  cd lumos/
+  704  python django-admin.py startproject lumos
+  705  cd ..
+  706  dir
+  707  cd twd
+  708  dir
+  709  cd .. 
+  710  dir lumos
+  711  cd lumos/
+  712  python -c "import django; print(django.get_version())"
+  713  cd ..
+  714  python -c "import django; print(django.get_version())"
+  715  cd twd
+  716  python -c "import django; print(django.get_version())"
+  717  workon twd
+  718  python -c "import django; print(django.get_version())"
+  719  dir
+  720  cd fall-2014-eve/
+  721  git pull
+  722  cd ..
+  723  cd  lumos/
+  724  python django-admin.py startproject lumos
+  725  django-admin.py startproject lumos
+  726  deactive
+  727  deactivate
+  728  lsvirtualenv
+  729  mkvirtualenv
+  730  mkvirtualenv lumos
+  731  pip list
+  732  pip install django==1.5.4
+  733  pip list
+  734  git status
+  735  git add -A
+  736  git commit -m "setup django"
+  737  git push
+  738  cd..
+  739  cd ..
+  740  cd infolib/
+  741  git add
+  742  git status
+  743  cd
+  744  cd infolib/
+  745  git add -a
+  746  git add -A
+  747  git status
+  748  gst add -A
+  749  git push
+  750  git commit -m"added notes for installing"
+  751  git push
+  752  git commit -m "added notes for installing"
+  753  git add -A
+  754  git commit -m "added notes for installing"
+  755  git push
+  756  cd ..
+  757  lumos
+  758  cd lumos/
+  759  python manage.py runserver
+  760  manage.py runserver
+  761  dir
+  762  cd lumos
+  763  manage.py runserver
+  764  python manage.py runserver
+  765  workon lumos
+  766  cd lumos/
+  767  python manage.py runserver
+  768  manage.py runserver
+  769  cd lumos
+  770  manage.py runserver
+  771  python manage.py runserver
+  772  as
+  773  whois lumosmagic
+  774  whois lumosmagic.com
+  775  cd lumos/
+  776  git pull
+  777  python manage.py runserver
+  778  manage.py runserver
+  779  cd lumos/
+  780  python manage.py runserver
+  781  workon lumos
+  782  python manage.py runserver
+  783  clear
+  784  python manage.py runserver
+  785  cd ..
+  786  mkdir pong
+  787  cd pong
+  788  clone https://github.com/lukehammer/pong.git
+  789  git clone https://github.com/lukehammer/pong.git
+  790  cd pong
+  791  python manage.py runserver
+  792  dir
+  793  cd pong
+  794  dir
+  795  python manage.py runserver
+  796  workon lumos
+  797  deactivate
+  798  mkvirtualenv pong
+  799  pip install django==1.6.4
+  800  python manage.py runserver
+  801  git status
+  802  git pull
+  803  git add -A
+  804  git commit 
+  805  git push
+  806  git pull https://github.com/amench30/pong
+  807  git commit -m "pull from master"
+  808  git status
+  809  python manage.py runserver
+  810  sudo apt-get install -y node.js
+  811  workon lumos
+  812  cd
+  813  dir
+  814  cd lumos/
+  815  python manage.py runserver
+  816  cd lumos/
+  817  python manage.py runserver
+  818  ssh lukehammermagic.com
+  819  python manage.py runserver
+  820  ipconfig
+  821  python manage.py runserver 127.0.0.1:80
+  822  python manage.py runserver 127.0.0.1:5555
+  823  sudo modprobe -a vboxdrv vboxnetadp vboxnetflt vboxpci
+  824  python manage.py runserver 127.0.0.1:5555
+  825  python manage.py runserver
+  826  python manage.py runservrver 71.237.193.20:5555
+  827  python manage.py runserver 71.237.193.20:5555
+  828  ipconfig
+  829  # ipconfig
+  830  ipconfig
+  831  ifconfig
+  832  python manage.py runserver 192.168.1.156:5555
+  833  cd ..
+  834  cd pong
+  835  python manage.py runserver 192.168.1.156:5555
+  836  cd pong
+  837  python manage.py runserver 192.168.1.156:5555
+  838  cd .
+  839  cd ..
+  840  d
+  841  cd
+  842  cd .. 
+  843  cd l
+  844  dir
+  845  cd student/
+  846  cd l
+  847  cd lumos/
+  848  python manage.py runserver 192.168.1.156:5555
+  849  git -A
+  850  git add -A
+  851  git status
+  852  git commit -m "back to class doing the tango with dango"
+  853  git push
+  854  cd ...
+  855  cd ..
+  856  cd pong/
+  857  cd pong
+  858  git status
+  859  git pull amench30/pong
+  860  hist
+  861  806
+  862  history 806
+  863  historyv859
+  864  history 859
+  865  history 806
+  866  git pull https://github.com/amench30/pong
+  867  git status
+  868  git add -A
+  869  git commit -m"pushing merging"
+  870  git push 
+  871  python manage.py runserver 192.168.1.156:5555
+  872  git pull https://github.com/amench30/pong
+  873  git
+  874  git diff
+  875  git 
+  876  git pull https://github.com/amench30/pong
+  877  git add/rm
+  878  git pull https://github.com/amench30/pong
+  879  git add
+  880  git status
+  881  git add -A
+  882  git pull https://github.com/amench30/pong
+  883  git commit -m "commit"
+  884  git pull https://github.com/amench30/pong
+  885  git pull
+  886  git pull https://github.com/amench30/pong
+  887  git add -A
+  888  git commit -m "nothing"
+  889  git pull https://github.com/amench30/pong
+  890  git status
+  891  git push
+  892  git pull https://github.com/amench30/pong
+  893  git pull -U https://github.com/amench30/pong
+  894  git pull -u https://github.com/amench30/pong
+  895  git pull
+  896  git pull -u https://github.com/amench30/pong
+  897  git
+  898  git fetch https://github.com/amench30/pong
+  899  git pull
+  900  git pull https://github.com/amench30/pong
+  901  git clone https://github.com/amench30/pong.git
+  902  cd 
+  903  cd ..
+  904  cd lumos
+  905  dir
+  906  cd home/
+  907  cd l
+  908  dir
+  909  cd student/
+  910  cd lumos/
+  911  python manage.py runserver 192.168.1.156:5555
+  912  git add -A
+  913  git status
+  914  git add -a
+  915  git add -A
+  916  git --all
+  917  git add --all
+  918  git commit -m " veiws"
+  919  git status
+  920  git push
+  921  cd `
+  922  cd~
+  923  quit
+  924  `
+  925  dir 
+  926  cd pong
+  927  git status
+  928  git add -A
+  929  git status
+  930  git pull
+  931  git pull https://github.com/amench30/pong
+  932  git 
+  933  git branch
+  934  git reset
+  935  git pull https://github.com/amench30/pong
+  936  git merge
+  937  git init
+  938  git pull https://github.com/amench30/pong
+  939  git log
+  940  git rebase
+  941  git 
+  942  git reset
+  943  git pull https://github.com/amench30/pong
+  944  fetch https://github.com/amench30/pong
+  945  git fetch https://github.com/amench30/pong
+  946  git fetch https://github.com/amench30/pong head
+  947  git fetch https://github.com/amench30/pong master
+  948  cd ..
+  949  dir
+  950  cd lumos/
+  951  git pull
+  952  python manage.py syncdb
+  953  cd ..
+  954  cd pong/
+  955  cd pong
+  956  git status
+  957  git add -A
+  958  git status
+  959  git push
+  960  git fetch https://github.com/amench30/pong master
+  961  python manage.py runserver 192.168.1.156:5555
+  962  git add A
+  963  git add-A
+  964  git add -A
+  965  git status
+  966  git pull https://github.com/amench30/pong master
+  967  git stash
+  968  git pull https://github.com/amench30/pong master
+  969  git commit -m " i don't care"
+  970  git pull https://github.com/amench30/pong master
+  971  git
+  972  git rebase
+  973  git stash
+  974  git rebase
+  975  git pull https://github.com/amench30/pong master
+  976  git 
+  977  git merge
+  978  git commit -a
+  979  git pull https://github.com/amench30/pong master
+  980  python manage.py runserver 192.168.1.156:5555
+  981  cd ..
+  982  cd l
+  983  dir
+  984  cd lumos/
+  985  python manage.py runserver 192.168.1.156:5555
+  986  python manage.py syncbd
+  987  python manage.py syncdb
+  988  git add -A
+  989  git add --add :/
+  990  git status
+  991  git commit -m "sync db"
+  992  git push
+  993  python manage.py runserver 192.168.1.156:5555
+  994  git status
+  995  git add -a
+  996  git add -A
+  997  git add -u
+  998  git status
+  999  git commit -m "eod 1/7  database models TWD"
+ 1000  git push
+ 1001  cd lumos/
+ 1002  python manage.py runserver 192.168.1.156:5555
+ 1003  workon lumos
+ 1004  python manage.py runserver 192.168.1.156:5555
+ 1005  get postgress
+ 1006  sudo apt-get install postgresql
+ 1007  python manage.py runserver 192.168.1.156:5555
+ 1008  python manage.py runserver 192.168.1.15
+ 1009  python manage.py runserver 192.168.1.156:5555
+ 1010  workon lumos
+ 1011  cd lumos/lumos/
+ 1012  python manage.py runserver 192.168.1.156:5555
+ 1013  git add -A
+ 1014  git commit -m "problem makeing the index page displaying the content form the views"
+ 1015  git push
+ 1016  dir
+ 1017  cd fall-2014-eve/
+ 1018  git add -A
+ 1019  git commit -m "trouble with timer html thing "
+ 1020  git push
+ 1021  cd lumos/lumos/
+ 1022  workon lumos
+ 1023  git pull
+ 1024  python manage.py runserver 192.168.1.156:5555
+ 1025  python manage.py shell
+ 1026  python manage.py runserver 192.168.1.156:5555
+ 1027  python manage.py shell
+ 1028  clear
+ 1029  deactivate
+ 1030  cd..
+ 1031  cd ..
+ 1032  dir
+ 1033  twd
+ 1034  cd lumos/lumos/
+ 1035  workon lumos
+ 1036  python manage.py runserver 192.168.1.156:5555
+ 1037  git add -A
+ 1038  cd.
+ 1039  cd..
+ 1040  cd ..
+ 1041  git add -A
+ 1042  git commit -m"understanding AJAX works well in crome but not in IE"
+ 1043  git push
+ 1044  git status
+ 1045  cd infolib
+ 1046  git add -a
+ 1047  git add -A
+ 1048  git status -m "note this website for setting up AWS for danjo"
+ 1049  git push
+ 1050  git status
+ 1051  git status -m "note this website for setting up AWS for danjo"
+ 1052  git comit -m "note this website for setting up AWS for danjo"
+ 1053  git commit -m "note this website for setting up AWS for danjo"
+ 1054  git push
+ 1055  cd infolib/
+ 1056  history > histroy.txt
+ 1057  history > history.txt
