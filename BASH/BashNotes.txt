@@ -1,0 +1,36 @@
+ls 
+
+touch 
+
+history 
+
+echo
+echh = repeats
+echo = print for python 
+example.
+echo hello > edit_me.txt
+# this will place hello in edit_me.txt
+
+cat
+cat = file reader 
+#example 
+#cat 
+
+mkdir
+
+scp
+scp -i ~/.ssh/pdxcodeguild.pem edit_me.txt ubuntu@54.191.9.81:~
+
+
+
+ssh
+ssh -i keypair.pem ubuntu@PUBLIC_IP
+
+
+mv 
+mv {{fromFolder}} {{toFolder}}
+
+ln 
+symbolic link 
+AKA shortcut
+
