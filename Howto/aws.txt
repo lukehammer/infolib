@@ -1,1 +1,6 @@
 http://nickpolet.com/blog/deploying-django-on-aws/1/
+
+
+
+checking error logs 
+sudo less /var/log/apache2/error.log/
