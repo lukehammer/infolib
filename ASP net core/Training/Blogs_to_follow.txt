@@ -1,0 +1,1 @@
+http://www.jamessturtevant.com/posts/ASPNET-Identity-Custom-Database-and-OWIN/
