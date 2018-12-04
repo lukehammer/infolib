@@ -1,0 +1,54 @@
+Chapter 4 -- Comments 
+
+“Don’t comment bad code—rewrite it.”
+
+—Brian W. Kernighan and P. J. Plaugher1
+
+Comments don't make up for bad code. 
+
+Comments are a trade off 
+
+"The proper use of comments is to compensate for our failure to express ourselfs in code."" 
+
+
+
+
+Good Comments 
+ -- legal Comments
+ -- Explanation of Intent 
+ -- Warning of Consequences 
+ -- TODO 
+		- only allow becuase modern IDEs
+-- \\\Coments for Public APIs 
+		-- e.g. nuget packages 
+
+
+
+
+
+
+Bad Comments
+-- mumbling 
+-- redundant 
+		- if you have well named classes and functions comments are redundant 
+-- Misleading Comments 
+		- Comments can drift from origional meaning if there are comments refactor as you refactor code.
+		- or better yet don't use. 
+-- Journal Comments 
+		- never git is our jurnal now. 
+-- /// Docs
+		- good but just because a /// entry is available does mean we have to use it. some times less is more. 
+-- Don't use a comment when you can use a function or variable name 
+-- Closing Brace comments 
+		- If using then your function is likely too long, break in to smaller functions.
+-- HTML comments
+		- this is an Abomination
+-- Too Much infomation
+-- Function Headers 
+		- for short functions well chosen name is better. 
+-- Commented out code
+		- *Danger* why not just delete, we have source control. If author does not delete unlikey that any one else will have guts to delete. 
+
+
+
+
