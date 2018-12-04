@@ -1,0 +1,48 @@
+Chaper 3 -- Functions 
+
+
+Small.
+	--no smaller then that!
+
+Do one thing.
+	-- "Functions should do one thing . They should do it well. They should so it only."
+
+One level of abstraction per function. 
+
+Switch staments 
+	--It's hard to make a small switch statment.
+	--General rule for Switch statments can be tolerated if they appear only one add are used to create polymorphic objects
+	and are hidden behind an inheritance relationship. 
+
+
+Use descriptive names.
+	i
+Arguments.
+	Best to worse 
+
+	1. niladic -- no arguments 
+	2. monadic -- one argument
+	3. dyadic -- two arguments 
+	4. triadic -- three arguments
+	5. polyadic -- more then three   **needs very special justification**
+
+
+Flag Arguments 
+	--Very bad practice 
+			-- If used clear that function is doing more than one thing. 
+			-- Split method into several independent methods that can be called from the client without the flag.
+
+
+Have no side effects.
+
+
+Command Query Seperation 
+	--do something or answer something, But not both. 
+
+Prefer Exceptions to Returning Error Codes
+
+D.R.Y.
+	--Don't Repeat  Yourself
+
+Structured Programming 
+	--Multiple return, break, continue - OK, but GOTO should always be avoided.  
