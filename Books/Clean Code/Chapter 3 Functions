@@ -16,15 +16,18 @@ Switch staments
 
 
 Use descriptive names.
-	i
+	
+
 Arguments.
 	Best to worse 
 
-	1. niladic -- no arguments 
-	2. monadic -- one argument
-	3. dyadic -- two arguments 
-	4. triadic -- three arguments
+	1. niladic -- no arguments      -- best
+	2. monadic -- one argument      -- good 
+	3. dyadic -- two arguments      -- still good 
+	4. triadic -- three arguments   -- O.K. 
 	5. polyadic -- more then three   **needs very special justification**
+
+	--if need to passing a bunch of args round up into own class and pass in just the one class Object. 
 
 
 Flag Arguments 
@@ -34,6 +37,10 @@ Flag Arguments
 
 
 Have no side effects.
+
+Output Arguments
+	--Should be avoided 
+		-"If your function must change the state of something have it change the state of the owning object."
 
 
 Command Query Seperation 
