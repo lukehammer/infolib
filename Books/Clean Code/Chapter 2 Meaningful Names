@@ -19,7 +19,7 @@ Clear distinctions:
 Use pronouncable and meaningfull names.
 	"message" is better "msg" because it is readable 
 
-Serchable names (can be found easily by search tools as per their meaning).
+Searchable names (can be found easily by search tools as per their meaning).
 	-- shorter for local variables.
 
 Avoid encodings (coded names).
