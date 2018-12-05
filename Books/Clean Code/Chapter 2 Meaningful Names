@@ -23,12 +23,15 @@ Searchable names (can be found easily by search tools as per their meaning).
 	-- shorter for local variables.
 
 Avoid encodings (coded names).
+	-- Hungarian Notation not needed any more Don't use. 
+	-- Interfaces why are interfaces any thing special (Mircosoft thinks they are.)
 
 Classes and objects 
 	--should have noun or noun phrase names like Customer, Account.
 
 Methods 
 	--should have verb or verb phrase names like postPayment(), deletePage(), or save().
+	--One Word per concept.
 
 Don't use cute or humourous or witty names.
 	--not understandable to person who does not have your humor.
