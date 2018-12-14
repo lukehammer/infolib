@@ -1,0 +1,11 @@
+Chapter 5 formating 
+
+Hoizonal limit 
+	-Never should need to scroll left or right
+	-max 200 char 
+	-recomendended 120 char
+
+Team Rules
+	-Set formatting rules as a team enforce with tooling -styleCop, resharper
+	-better to follow the team then create own standard. 
+

@@ -1,0 +1,37 @@
+Chapter 6 Object and Data Structures 
+
+
+
+Objects hide their data behind abstractions and expose functions that operate on that data.
+
+
+Object 
+
+
+
+Data structure expose their data and have no meaningful functions
+
+Law of Demeter says 
+	method f of class C should only call the methods of these: 
+		- C
+		- An object created by f
+		- An object passed as an argument to f
+		- An object held in an instance variable of C
+
+
+Train Wrecks 
+	
+	//bad 
+	String outputdir = context.getOptions().getScratchDir().getAbsolutePath();
+		-looks like a train when some thing goes wrong 
+
+    //better
+	 databaseOptions options = context.getOptions();
+	 File scrathDirectory = options.getScratchDir();
+	 String outputdir = scrathDirectory.getAbsolutePath();
+
+Be a Object or be a Data Structure but don't be both at the same time. 
+
+Very complex objects might need a DTO for mapping them to the database but, 
+with EF with code first can now directly map to backing feilds and there is not a need to a seperate DTO for Saving data. 
+
