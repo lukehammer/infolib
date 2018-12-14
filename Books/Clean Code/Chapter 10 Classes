@@ -1,0 +1,30 @@
+Chapter 10 Classes
+
+Encapsulation 
+	- Keep all variables and utility Functions private.
+	- if needed for testing make internal giving Test project Internal Rights to project
+		[assembly:InternalsVisibleTo("Name of Test unit Project")]
+
+Classes should be small
+	- Small is determined by how many responciblities does a class have. 
+
+Classes hould have one reason to change or SRP Single Responsibility Princible or 'S' in SOLID
+
+Cohesion
+	- Classes should have a small number of instance variables
+	- Keeping instance variable and parameter list low prevent 3 or more classes becoming one mega class.
+	- Keeping Classes Small helps keep functions small. 
+		- When refactoring large functions it is likley to discouver classes in your classes that should be broken out too.
+
+Organizing for Change 
+	- Breaking classes into smaller, simpler functions reduces the event that one function will break another
+	- Subclassing properly can help reduce number of breaks in existing code
+	- OCP, Open Close Principle (Wikipedia): The O in SOLID
+	- Classes should be open for extension but closed for modifications
+	- Ideally, we add new functionality by inherating from the Class, not modifying the existing code.
+
+A client class depending on concrete details is at risk when those details change
+	- Using a good base / abstract class can make testing easier as you can create repeatable tests
+	- Making code more testable makes it more reusable in effect
+	- DIP, Dependency Inversion Principle (Wikipedia): The D in SOLID
+	- Classes should depend on abstractions, not concrete details

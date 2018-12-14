@@ -1,0 +1,78 @@
+Chapter 9 Unit Tests
+
+
+Three laws of TDD
+	1. You may not write production code until you have written a failing unit test
+	2. You may not write more of a unit test than is sufficient to fail, and compiling is failing
+	3. You may not write more production code than is sufficient to pass the currently failing test
+
+Keeping Tests Clean
+	- test code could outgrow your prod code and become unmanageable
+	- iS Dirty test code better than no test code?
+
+Tests must change as the production code changes
+	- The dirtier the tests, the harder they are to change
+	- Tests can become a liability due to technical debt of the dirtiness
+	- Abandoning test code has the following consequences
+
+Production code defects rise
+	- Fear of changing code increases
+	- Cleaning / refactoring code descreases due to lack of confidence (Code rot!!!)
+	- Test code is as important as production code – it should be treated as a first class citizen and should be as clean as production code.
+
+Tests Enable the -ilities
+	- Tests are what keep your production code flexible, maintainable and reusable.
+	- Tests allow you to make changes to code without fear.
+	- Tests enable change.
+	- Tests enable improving architecture.
+	- Without tests, your code base rots.
+
+Clean Tests
+	- Readability
+	- More important in Unit Tests than in production code?
+	- Clarity
+	- Simplicity
+	- Density of expression
+	- Much like writing great functions, if you have to learn a ton of details to make heads or tails of a test, it can be improved.
+
+Build – Operate – Check Pattern
+
+Build – builds up the test data
+Operate – works on the test data
+Check – ensure the operation yielded the expected results
+
+Great example in the book of refactoring an ugly test to a clean one
+
+
+AAA  Arrange - Act - Assert 
+
+Domain Specific Testing Language
+	- Tests are written in specific ways for various testing platforms
+	- Helps readability
+	- Double Standard?
+	- Interesting points made on asserts in line with values…
+	- Author chose to do upper / lower combination of characters in an initialism to indicate whether the particular test result should have been true or false
+
+Unit tests are often not held to the same standard in terms of performance
+	- StringBuilder in production
+	- String Concatenation in tests
+
+One assert per test
+	- Makes tests very easy to read
+	- Given, When, Then naming
+	- Author actually prefers multiple asserts in some scenarios (XML example from book)
+	- Author notes that single assert is a good guideline
+	- Should try to minimize the number of asserts
+	- Single concept per test
+	- More important than a single assert per test
+	- Ensures that your tests are laser focused and not testing miscellaenous (non-related) things
+
+FIRST
+	(F)ast – tests should be fast / run quickly
+	(I)ndependent – tests should NOT depend on each other – tests should be able to be run in any order they like
+	(R)epeatable – they should be repeatable in ANY environment without need for any specific infrastructure
+	(S)elf-validating – they should have a boolean output – pass or fail, nothing else
+	(T)imely – they need to be written in a timely fashion – just before the production code is written – ensures they are easy to code against
+
+Importance
+	- Unit Tests are as important if not moreso than the production code they’re for becasue they allow you to make changes confidently and without fear. They allow you to mold your code over time to improve flexibility / maintainability.
