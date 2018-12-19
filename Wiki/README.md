@@ -12,7 +12,7 @@ Clean Code is code that has been taken care of to be descriptive and readable..
     
     //good 
     int radius = 1 
-    
+
     ```
 
 
@@ -69,35 +69,35 @@ cClean Code is code that has been taken care of to be descriptive and readable..
 **[⬆ back to top](#table-of-contents)**
 
 Avoid misinfomation
-    --Don't name variable accountList if data type is not List better just to name accounts. 
+	--Don't name variable accountList if data type is not List better just to name accounts. 
 
 Don't use abbreviations.	
 
 Name is better than nameString (unnecessary information).
 
 Clear distinctions: 
-    -- avoid getAccount(), getAccounts(), getAccountInfo() in same class, 
-    -- or e.g. avoid get(), fetch(), retrieve().
+	-- avoid getAccount(), getAccounts(), getAccountInfo() in same class, 
+	-- or e.g. avoid get(), fetch(), retrieve().
 
 Use pronouncable and meaningfull names.
-    "message" is better "msg" because it is readable 
+	"message" is better "msg" because it is readable 
 
 Searchable names (can be found easily by search tools as per their meaning).
-    -- shorter for local variables.
+	-- shorter for local variables.
 
 Avoid encodings (coded names).
-    -- Hungarian Notation not needed any more Don't use. 
-    -- Interfaces why are interfaces any thing special (Mircosoft thinks they are.)
+	-- Hungarian Notation not needed any more Don't use. 
+	-- Interfaces why are interfaces any thing special (Mircosoft thinks they are.)
 
 Classes and objects 
-    --should have noun or noun phrase names like Customer, Account.
+	--should have noun or noun phrase names like Customer, Account.
 
 Methods 
-    --should have verb or verb phrase names like postPayment(), deletePage(), or save().
-    --One Word per concept.
+	--should have verb or verb phrase names like postPayment(), deletePage(), or save().
+	--One Word per concept.
 
 Don't use cute or humourous or witty names.
-    --not understandable to person who does not have your humor.
+	--not understandable to person who does not have your humor.
 
 Use names related to the solution applied like the pattern used e.g. factory , builder.
 
@@ -106,11 +106,11 @@ If not possible relate it to the problem being solved, like relate variables to 
 Add meaningful context, like creating a class which will hold the variables that are being used in the same context, 
 this will make the variables belong to that class and thus have contextual meaning.
 
-        --base , compare   source and target  not var1, var2 
-        
+		--base , compare   source and target  not var1, var2 
+		
 
 Avoid Words that don't add value
-    -- data, object, info, records
+	-- data, object, info, records
 
 
 
