@@ -24,7 +24,7 @@ Arguments.
 	1. niladic -- no arguments      -- best
 	2. monadic -- one argument      -- good 
 	3. dyadic -- two arguments      -- still good 
-	4. triadic -- three arguments   -- O.K. 
+	4. triadic -- three arguments   -- Meh - geting to grey here 
 	5. polyadic -- more then three   **needs very special justification**
 
 	--if need to passing a bunch of args round up into own class and pass in just the one class Object. 
@@ -45,6 +45,8 @@ Output Arguments
 
 Command Query Seperation 
 	--do something or answer something, But not both. 
+	-- Extract the try/catches out into functions that do the body of work – Throw liberally, catch sparingly
+	-- Error handling is “one thing” – so it should be the beginning and end of your function
 
 Prefer Exceptions to Returning Error Codes
 
@@ -52,4 +54,5 @@ D.R.Y.
 	--Don't Repeat  Yourself
 
 Structured Programming 
-	--Multiple return, break, continue - OK, but GOTO should always be avoided.  
+	--Multiple return, break, continue - Good when used correctly
+	--but GOTO should always be avoided.  
