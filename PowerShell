@@ -1,0 +1,7 @@
+PS C:\> Function Test-ADAuthentication {
+    param($username,$password)
+    (new-object directoryservices.directoryentry "",$username,$password).psbase.name -ne $null
+    }
+
+PS C:\> Test-ADAuthentication "dom\myusername" "mypassword"
+True
