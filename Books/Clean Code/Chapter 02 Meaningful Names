@@ -1,6 +1,6 @@
 Chapter 2 Meaningful Names 
 
-Clean Code is code that has been taken care of to be descriptive and readable..
+Clean Code is code that has been thoughtfully created to be descriptive and readable..
 
 Use intention revealing names
 	--radius instead of r.
@@ -14,13 +14,13 @@ Name is better than nameString (unnecessary information).
 
 Clear distinctions: 
 	-- avoid getAccount(), getAccounts(), getAccountInfo() in same class, 
-	-- or e.g. avoid get(), fetch(), retrieve().
+	-- or e.g. avoid get(), fetch(), retrieve() in same class.
 
 Use pronouncable and meaningfull names.
 	"message" is better "msg" because it is readable 
 
 Searchable names (can be found easily by search tools as per their meaning).
-	-- shorter for local variables.
+	-- shorter for local scoped variables. (Broader scope will require longer variable names.)
 
 Avoid encodings (coded names).
 	-- Hungarian Notation not needed any more Don't use. 
@@ -42,8 +42,8 @@ If not possible relate it to the problem being solved, like relate variables to 
 
 Add meaningful context, like creating a class which will hold the variables that are being used in the same context, 
 this will make the variables belong to that class and thus have contextual meaning.
-
-		--base , compare   source and target  not var1, var2 
+		--base , compare, source and target Good 
+		--not var1, var2 Bad 
 		
 
 Avoid Words that don't add value
