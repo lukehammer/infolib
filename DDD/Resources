@@ -1,0 +1,19 @@
+Books
+Domain-Driven Design: Tackling Complexity in the Heart of Software
+Eric Evans
+https://read.amazon.com/kp/embed?asin=B00794TAUG&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_UM4hEbRPPX367
+
+Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)
+https://www.amazon.com/dp/0134494164/ref=cm_sw_em_r_mt_dp_U_CO4hEbKB1ND19
+
+PodCasts
+https://www.codingblocks.net/programming/clean-architecture-make-your-architecture-scream/
+Coding Blocks eph. 64, 68-77
+
+Plural Sight
+https://app.pluralsight.com/library/courses/domain-driven-design-fundamentals
+(a little dated Mircosoft is supporting DDD better with Entity Framework core now adding support for value objects which prevents some of the compromises used in this class).
+
+Blogs
+https://domainlanguage.com/ddd/reference/
+ https://martinfowler.com/
