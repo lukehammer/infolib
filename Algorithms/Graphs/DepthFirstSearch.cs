@@ -120,7 +120,6 @@ namespace Graphs
           
             // Assert
             oneTo2.Should().BeTrue();
-            
         }
     }
 }
