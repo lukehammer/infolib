@@ -398,3 +398,6 @@ FodyWeavers.xsd
 *.sln.iml
 *.gitignore
 *.ncrunchsolution
+/Algorithms/Graphs/Graphs.v3.ncrunchproject
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
