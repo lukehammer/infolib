@@ -29,6 +29,7 @@ Vladimir Khorikov Book Unit Testing Principles Practices and Patterns It's a muc
 
 # Guidelines #
 
+
 ## What are Guidelines? ##
 
 Please note that guidelines is These are not rules these are not laws. Guidelines are For the benefit of the developer both reading and writing code. It is possible that team members will run into situations  Where the guidelines are not helpful To the reader or to the writer of the code In such situations Judge, use your own judgment on. what do you think is right? Maybe confer with colleagues? but don't let the guideline be a blocker to prevent you from moving forward. The guidelines serve the developers. The developers do not serve the guidelines.   
@@ -38,27 +39,64 @@ Please note that guidelines is These are not rules these are not laws. Guideline
 
 The AAA pattern advocates for splitting each test into three parts: arrange, act, and assert. (This pattern is sometimes also called the 3A pattern.) 
 
+#### Bad #### 
 ``` csharp
-public class Calculator
+[Fact]
+public void Sum_of_two_numbers()
 {
-    public double Sum(double first, double second)
-    {
-        return first + second;
-    }
+    double first = 10;
+    double second = 20;
+    var calculator = new Calculator();
+    double result = calculator.Sum(first, second);
+    Assert.Equal(30, result);
+}
+
+```
+
+
+#### Best #### 
+``` csharp
+[Fact]
+public void Sum_of_two_numbers()
+{
+    // Arrange
+    double first = 10;
+    double second = 20;
+    var calculator = new Calculator();
+
+    // Act
+    double result = calculator.Sum(first, second);
+
+    // Assert
+    Assert.Equal(30, result);
+}
+
+```
+
+In cases where the AAA is obvious sometimes the comments are unneeded. 
+
+But spaces should still be used to identify the three different parts of the test. 
+
+#### Good #### 
+``` csharp
+[Fact]
+public void Sum_of_two_numbers()
+{
+    double first = 10;
+    double second = 20;
+    var calculator = new Calculator();
+
+    double result = calculator.Sum(first, second);
+
+    Assert.Equal(30, result);
 }
 ```
 
 
-``` csharp
-public class Calculator
-{
-    public double Sum(double first, double second)
-    {
-        return first + second;
-    }
-}
-```
+#### Avoid multiple arrange, act, and assert sections
 
+
+Is this needed 
 
 
 
