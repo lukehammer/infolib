@@ -39,8 +39,9 @@ Please note that guidelines is These are not rules these are not laws. Guideline
 
 The AAA pattern advocates for splitting each test into three parts: arrange, act, and assert. (This pattern is sometimes also called the 3A pattern.) 
 
-#### Bad #### 
+
 ``` csharp
+//bad
 [Fact]
 public void Sum_of_two_numbers()
 {
@@ -54,8 +55,9 @@ public void Sum_of_two_numbers()
 ```
 
 
-#### Best #### 
+
 ``` csharp
+//best
 [Fact]
 public void Sum_of_two_numbers()
 {
@@ -79,6 +81,7 @@ But spaces should still be used to identify the three different parts of the tes
 
 #### Good #### 
 ``` csharp
+//Acceptable when test is short and clear. 
 [Fact]
 public void Sum_of_two_numbers()
 {
