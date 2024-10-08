@@ -1,0 +1,3 @@
+delete all branches not on remote 
+
+git for-each-ref --format='%(refname:short) %(upstream:track)' refs/heads | Where-Object { $_ -match '\[gone\]' } | ForEach-Object { $_.Split(' ')[0] } | ForEach-Object { git branch -d $_ }
